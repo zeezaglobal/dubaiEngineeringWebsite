@@ -1,15 +1,15 @@
 /* The main container that enables scrolling */
 .scroll-container {
-    height: 100vh; /* Occupy the full viewport height */
-    overflow-y: scroll; /* Allow vertical scrolling */
-    scroll-snap-type: y mandatory; /* Enforce snapping on the vertical axis */
-  }
+  height: 100vh;  /* limits container height to viewport */
+  overflow-y: scroll;
+  scroll-snap-type: y mandatory;
+}
   
   /* This is the only rule needed for our sections */
   .scroll-section {
-    scroll-snap-align: start; /* Snap to the top of each section */
+    height: 100vh;
+    scroll-snap-align: start;
   }
-  
   /* Optional: To remove the default body margin */
   body {
     margin: 0;

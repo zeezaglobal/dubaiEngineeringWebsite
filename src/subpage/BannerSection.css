@@ -1,0 +1,17 @@
+.banner-section {
+    height: 100vh; /* ensure banner container is full height */
+  }
+  
+  .banner-section .ant-carousel .slick-slide {
+    height: 100vh !important;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+  }
+  
+
+
+  .banner-section .ant-carousel {
+    height: 100%; /* let carousel fill banner-section */
+  }
+  
