@@ -1,16 +1,15 @@
 /* The main container that enables scrolling */
 .scroll-container {
-  height: 100vh;  /* limits container height to viewport */
-  overflow-y: scroll;
-  scroll-snap-type: y mandatory;
+  height: 100vh; /* still full height, but no snap */
+  overflow-y: auto; /* scroll normally */
 }
-  
-  /* This is the only rule needed for our sections */
-  .scroll-section {
-    height: 100vh;
-    scroll-snap-align: start;
-  }
-  /* Optional: To remove the default body margin */
-  body {
-    margin: 0;
-  }
+
+/* Sections just take full viewport height, no snap */
+.scroll-section {
+  height: 100vh;
+}
+
+/* Optional: To remove the default body margin */
+body {
+  margin: 0;
+}
