@@ -1,17 +1,28 @@
+/* Make sure the banner section takes full width */
 .banner-section {
-    height: 100vh; /* ensure banner container is full height */
-  }
-  
-  .banner-section .ant-carousel .slick-slide {
-    height: 100vh !important;
-    display: flex !important;
-    justify-content: center;
-    align-items: center;
-  }
-  
+  width: 100vw;  
+  height: 100vh; /* full viewport width */
+  margin: 0;     /* remove default margin */
+  padding: 0;    /* remove default padding */
+}
 
+/* The carousel container itself should also be full width */
+.banner-carousel {
+  width: 100vw !important;
+  height: 100vh !important; 
+}
 
-  .banner-section .ant-carousel {
-    height: 100%; /* let carousel fill banner-section */
-  }
-  
+/* Each slide div should take full width */
+.carousel-slide {
+  width: 100vw;
+   /* set your preferred height */
+  overflow: hidden;
+}
+
+/* Image fills the slide area, cropping if needed */
+.carousel-image {
+  width: 100vw;
+
+  object-fit: cover;
+  display: block;
+}
