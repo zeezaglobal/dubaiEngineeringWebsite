@@ -1,0 +1,51 @@
+/* This is the main container that creates the "window" for the scroller */
+.product-scroller {
+  max-width: 90vw;
+  overflow: hidden;
+  /* Pro-tip: Add a mask to fade the edges for a cleaner look */
+  -webkit-mask-image: linear-gradient(to right, transparent, white 20%, white 80%, transparent);
+  mask-image: linear-gradient(to right, transparent, white 20%, white 80%, transparent);
+}
+
+/* This is the inner container that holds and animates the items */
+.scroller-inner {
+  display: flex;
+  gap: 2rem; /* Space between items */
+  width: max-content; /* Ensures the container is wide enough for all items */
+  animation: scroll 40s linear infinite;
+}
+
+/* Define the scrolling animation */
+@keyframes scroll {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    /* We translate by -50% because we duplicated the content. 
+       This moves the first list completely out of view, and the
+       second list (the clone) moves perfectly into its place. */
+    transform: translateX(-50%);
+  }
+}
+
+.product-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.product-item img {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  background-color: #f8f9fa; /* Light background for the image placeholder */
+}
+
+.product-item .product-name {
+  margin-top: 0.75rem;
+  font-weight: 500;
+  color: #001123; /* A light grey color that fits the theme */
+}

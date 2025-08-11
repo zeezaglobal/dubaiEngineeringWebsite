@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'Freshman';
+    src: url('/src/fonts/Freshman.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  .sf-freshman-font {
+    font-family: 'Freshman', sans-serif;
+  }
