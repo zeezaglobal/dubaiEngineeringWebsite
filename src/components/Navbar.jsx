@@ -13,6 +13,19 @@ function Navbar() {
           <span className="navbar-brand mb-0 h1 text-dark">{COMPANY_NAME}</span>
         </Link>
 
+        {/* Mobile Toggle Button */}
+        <button
+          className="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span className="navbar-toggler-icon"></span>
+        </button>
+
         {/* Middle: Nav links */}
         <div className="collapse navbar-collapse justify-content-center" id="navbarSupportedContent">
           <ul className="navbar-nav gap-2">
@@ -22,7 +35,8 @@ function Navbar() {
                 to="/"
                 end
                 className={({ isActive }) =>
-                  "nav-link px-3 py-2 rounded" + (isActive ? " bg-secondary bg-opacity-50 text-black" : " bg-light text-black")
+                  "nav-link px-3 py-2 rounded" +
+                  (isActive ? " bg-secondary bg-opacity-50 text-black" : " bg-light text-black")
                 }
                 style={{ fontWeight: "500" }}
               >
@@ -113,7 +127,8 @@ function Navbar() {
               <NavLink
                 to="/about"
                 className={({ isActive }) =>
-                  "nav-link px-3 py-2 rounded" + (isActive ? " bg-secondary bg-opacity-50 text-black" : " bg-light text-black")
+                  "nav-link px-3 py-2 rounded" +
+                  (isActive ? " bg-secondary bg-opacity-50 text-black" : " bg-light text-black")
                 }
                 style={{ fontWeight: "500" }}
               >

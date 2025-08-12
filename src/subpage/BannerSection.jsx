@@ -3,10 +3,10 @@ import { Carousel } from "antd";
 import "./BannerSection.css";
 
 const images = [
-  "/src/assets/solidworks.jpeg",
-  "/src/assets/solidworks.jpeg",
-  "/src/assets/solidworks.jpeg",
-  "/src/assets/solidworks.jpeg",
+  "/src/assets/solidworks.png",
+  "/src/assets/solidworks.png",
+  "/src/assets/solidworks.png",
+  "/src/assets/solidworks.png",
 ];
 
 
@@ -19,6 +19,7 @@ const BannerSection = () => (
           <img
             src={src}
             alt={`Banner ${index + 1}`}
+            style={{ width: "100%", height: "100%", objectFit: "cover" }}
           />
         </div>
       ))}
