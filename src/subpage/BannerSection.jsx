@@ -3,10 +3,9 @@ import { Carousel } from "antd";
 import "./BannerSection.css";
 
 const images = [
-  "/src/assets/solidworks.png",
-  "/src/assets/solidworks.png",
-  "/src/assets/solidworks.png",
-  "/src/assets/solidworks.png",
+  "/src/assets/1.jpg",
+  "/src/assets/2.jpg",
+  "/src/assets/3.jpg",
 ];
 
 

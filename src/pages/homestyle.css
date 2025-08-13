@@ -3,7 +3,11 @@
   height: 100vh; /* still full height, but no snap */
   overflow-y: auto; /* scroll normally */
 }
-
+.scroll-container,
+.scroll-section {
+  margin: 0;
+  padding: 0;
+}
 /* Sections just take full viewport height, no snap */
 .scroll-section {
   height: 100vh;
