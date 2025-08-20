@@ -6,8 +6,7 @@ export default function About() {
       style={{
         height: "100vh",
         width: "100vw",
-        backgroundImage:
-          "linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, transparent 50%), url('/src/assets/port.png')",
+        backgroundImage: `linear-gradient(to bottom, rgba(0, 0, 0, 0.7) 0%, transparent 50%), url(${img6})`,
         backgroundSize: "cover",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
