@@ -42,11 +42,11 @@ export default function WelcomeSection() {
           src={banner}
           alt={`${COMPANY_NAME} Services`}
           className="img-fluid rounded-4 fade-in-image shadow mt-4"
-         style={{
-    width: "100%",            // make it responsive
-    maxWidth: "700px",        // cap it for larger screens
-    height: "auto",           // maintain aspect ratio
-  }}
+          style={{
+            width: "100%",            // make it responsive
+            maxWidth: "700px",        // cap it for larger screens
+            height: "auto",           // maintain aspect ratio
+          }}
         />
       </div>
     </div>
