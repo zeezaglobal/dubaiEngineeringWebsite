@@ -1,48 +1,54 @@
 import React from 'react';
 import './ProductScroller.css';
 import { Link } from 'react-router-dom';
-
+import jack from '../assets/jack.png';
+import img4 from '../assets/4.png';
+import img6 from '../assets/6.png';
+import img5 from '../assets/5.png';
+import img7 from '../assets/7.png';
+import img8 from '../assets/8.png';
+import img9 from '../assets/9.png';
 const products = [
   {
     id: 1,
     name: 'Pallete trolley',
-    imageUrl: '../../src/assets/jack.png',
+    imageUrl: jack,
     description: 'Used to transport pallets in warehouses efficiently.'
   },
   {
     id: 2,
     name: 'Cone Type Pipe Roller',
-    imageUrl: '/src/assets/4.png',
+    imageUrl: img4,
     description: 'Helps support and guide pipes during laying operations.'
   },
   {
     id: 3,
     name: 'Pipe Lowering Roller',
-    imageUrl: '/src/assets/6.png',
+    imageUrl: img6,
     description: 'Used during pipe lowering processes in trenching.'
   },
   {
     id: 4,
     name: 'Beam Clamp Rigging Roller',
-    imageUrl: '/src/assets/5.png',
+    imageUrl: img5,
     description: 'Mounts to beams to allow pipe rigging operations.'
   },
   {
     id: 5,
     name: 'Multidirectional Pipe Roller',
-    imageUrl: '/src/assets/7.png',
+    imageUrl: img7,
     description: 'Allows movement of pipes in multiple directions.'
   },
   {
     id: 6,
     name: 'Pipe Roller',
-    imageUrl: '/src/assets/8.png',
+    imageUrl: img8,
     description: 'Basic support for moving and guiding pipes.'
   },
   {
     id: 7,
     name: 'Pipe Lowering Belt',
-    imageUrl: '/src/assets/9.png',
+    imageUrl: img9,
     description: 'Heavy-duty belts used for lowering pipes into trenches.'
   }
 ];
