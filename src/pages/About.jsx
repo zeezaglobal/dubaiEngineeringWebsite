@@ -1,5 +1,5 @@
 import React from "react";
-
+import img6 from '../assets/port.png';
 export default function About() {
   return (
     <div
