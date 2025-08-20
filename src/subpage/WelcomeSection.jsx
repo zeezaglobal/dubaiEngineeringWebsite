@@ -1,6 +1,7 @@
 import { COMPANY_NAME } from "../utils/globals";
 import "./WelcomeSection.css";
-
+import bg from "../../src/assets/bg-pattern.png";
+import banner from "../../src/assets/solidworks.png";
 export default function WelcomeSection() {
   return (
     <div
@@ -10,7 +11,7 @@ export default function WelcomeSection() {
       <div className="text-center position-relative">
         {/* Background Pattern - inside heading container */}
         <img
-          src="/src/assets/bg-pattern.png"
+          src={bg}
           alt="Floating"
           style={{
             position: "absolute",
@@ -38,7 +39,7 @@ export default function WelcomeSection() {
 
         {/* Image Below */}
         <img
-          src="/src/assets/solidworks.png"
+          src={banner}
           alt={`${COMPANY_NAME} Services`}
           className="img-fluid rounded-4 fade-in-image shadow mt-4"
           style={{ maxWidth: "700px" }}

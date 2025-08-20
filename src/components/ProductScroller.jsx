@@ -6,7 +6,7 @@ const products = [
   {
     id: 1,
     name: 'Pallete trolley',
-    imageUrl: '/src/assets/jack.png',
+    imageUrl: '../../src/assets/jack.png',
     description: 'Used to transport pallets in warehouses efficiently.'
   },
   {
