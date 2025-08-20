@@ -1,1 +1,1 @@
-export const COMPANY_NAME = "Dubai Heavy Equipments";
+export const COMPANY_NAME = "Solidcore Engineering";

@@ -8,9 +8,9 @@ const { Title, Paragraph } = Typography;
 export default function Home() {
   return (
     <div className="scroll-container">
- <WelcomeSection className="scroll-section" />
-<ServicesSection className="scroll-section" />
-<BannerSection className="scroll-section" />
-  </div>
+      <WelcomeSection className="scroll-section" />
+      <ServicesSection className="scroll-section" />
+      <BannerSection className="scroll-section" />
+    </div>
   );
 }

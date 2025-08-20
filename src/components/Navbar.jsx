@@ -1,6 +1,6 @@
 import { Link, NavLink } from "react-router-dom";
 import { COMPANY_NAME } from "../utils/globals";
-import logo from "../assets/logo.jpeg"; // adjust path if needed
+import logo from "../assets/logo.png"; // adjust path if needed
 
 function Navbar() {
   return (
@@ -10,7 +10,7 @@ function Navbar() {
         {/* Left: Logo + Company Name */}
         <Link to="/" className="d-flex align-items-center text-decoration-none">
           <img src={logo} alt="Logo" style={{ height: 40, marginRight: 10 }} />
-          <span className="navbar-brand mb-0 h1 text-dark">{COMPANY_NAME}</span>
+          <span className="navbar-brand mb-0 h1 text-dark">{}</span>
         </Link>
 
         {/* Mobile Toggle Button */}

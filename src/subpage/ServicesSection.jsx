@@ -11,7 +11,7 @@ export default function ServicesSection() {
         >
           FIND THE RIGHT EQUIPMENT
           <br />
-          <span className="text-warning">DUBAI</span> WILL PROVIDE
+          <span className="text-warning">SOLIDCORE</span> WILL PROVIDE
         </h1>
         <p className="lead">Explore the wide range of services we offer.</p>
         <ProductScroller />

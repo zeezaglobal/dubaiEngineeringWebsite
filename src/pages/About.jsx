@@ -53,7 +53,7 @@ export default function About() {
           padding: "0 1rem",
         }}
       >
-       info@dubai.ca
+       contact@solidcoreengineering.com
       </p>
     </div>
   );
